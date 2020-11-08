@@ -1,0 +1,149 @@
+/*
+    Background1: #181818;
+    Background2: #2b2b2b;
+    Background3: #353535;
+    Background4: #313131;
+    Background5: #525252;
+    Background6: #7f7f7f;
+    Text1:        #dcdcdc; 
+    Text2:        #7f7f7f; 
+    Highlight1:  #2d506c;
+    Highlight2:  #a10855;
+*/
+
+* {
+    font-family: "AD_Montserrat-Medium, Arial, Sans-Serif";
+    /* font-family: "Montserrat, Arial, Sans-Serif"; */
+    /* font-family: "AD_Montserrat-Regular"; */
+    /* font-weight: 400; */
+    font-size: 14px;
+}
+
+QMainWindow > QWidget {
+    background-color: #181818;
+}
+
+QMainWindow > QSplitter {
+    background-color: #2b2b2b;
+}
+
+QStatusBar {
+    border-style: solid;
+    border-width: 2px 0 0;
+    border-color: #2d506c;
+    padding-top: 2px;
+    background-color: #2b2b2b;
+    color: #7f7f7f;
+}
+
+QMenuBar, QMenu {
+    background-color: #181818;
+}
+
+QMenuBar::item, QMenu::item {
+    color: #dcdcdc;
+}
+
+QMenu::item:selected, QMenuBar::item:selected{
+    background-color: #2d506c;
+}
+
+QScrollBar {
+    background-color: rgba(0,0,0,0);
+    padding: 2px;
+    width: 10px;
+}
+
+QScrollBar::handle {
+    /* background: rgba(0,0,0,0.4); */
+    background: #313131;
+    border-radius: 3px;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: rgba(0,0,0,0);
+}
+
+QScrollBar::right-arrow:vertical, QScrollBar::left-arrow:vertical {
+    display: none;
+}
+
+QTreeView::item {
+    color: #7f7f7f;
+}
+
+QTreeView::item:hover, QTreeView::branch:hover {
+    background-color: #3b3b3b;
+}
+
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings {
+    border-image: none;
+    image: url(:/images/icon_branch_closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings {
+    border-image: none;
+    image: url(:/images/icon_branch_open.png);
+}
+
+QTreeView::item:selected, QTreeView::branch:selected {
+    background-color: #2d506c;
+}
+
+QPushButton {
+    background-color: #7a7a7a;
+    border-style: none;
+    padding: 5px;
+}
+
+AssetBrowser {
+    background-color: #353535;
+}
+
+AssetBrowser > QListView {
+    background-color: #525252;
+    border-style: none;
+    padding: 5px;
+    font-size: 12px;
+}
+
+AssetBrowser > QListView::item:hover {
+    background: #8f8f8f;
+}
+
+AssetBrowser > QListView::item {
+    background: #7f7f7f;
+    color: #dcdcdc;
+    height: 1200px;
+    width: 1000px;
+    padding: 4px 4px 0px;
+    margin: 4px;
+}
+
+
+QSlider::groove:horizontal {
+    background: #7f7f7f;
+    height: 4px;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #dcdcdc;
+    width: 10px;
+    margin: -4px 0;
+    border-radius: 2px;
+}
+
+LibraryBrowser {
+    background-color: #2b2b2b;
+}
+
+LibraryBrowser > QTreeView {
+    background-color: #2b2b2b;
+    border-style: none;
+    font-size: 12px;
+}
+

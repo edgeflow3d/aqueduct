@@ -1,0 +1,16 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+    <file>images/aqueduct_logo_16.png</file>
+    <file>images/aqueduct_logo_32.png</file>
+    <file>images/aqueduct_logo_64.png</file>
+    <file>images/aqueduct_logo_128.png</file>
+    <file>images/3d_asset.png</file>
+    <file>images/icon_folder.png</file>
+    <file>images/icon_branch_closed.png</file>
+    <file>images/icon_branch_open.png</file>
+    <file>qss/default.qss</file>
+    <file>fonts/AD_Montserrat-Regular.ttf</file>
+    <file>fonts/AD_Montserrat-Medium.ttf</file>
+</qresource>
+</RCC>
