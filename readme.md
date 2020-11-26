@@ -8,6 +8,7 @@ For information on the Aqueduct Asset Manager visit the documentation at:
 [Read the Docs - Aqueduct Project](https://aqueduct-project.rtfd.io)
 
 ## How to Use
+![Aqueduct Blender Interop Overview](images/aqueduct_overview_1200x600.png?raw=true)
 The Aqueduct Desktop app is best used in conjunction with the **Aqueduct Blender Addon**
 that adds functionality to blender that makes it easier to work with 3D Asset blend-files
 and improves blenders drag&drop context menu considerably.
